@@ -22,7 +22,7 @@ E-commerce de cookies plant-based con estética New York style. En esta segunda 
 - React Hook Form
 - SweetAlert2
 - Font Awesome
-- CSS propio
+- CSS 
 
 ## Cómo abrir el proyecto
 
