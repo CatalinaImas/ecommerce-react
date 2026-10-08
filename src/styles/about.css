@@ -1,0 +1,145 @@
+/* === About Page Modern Premium Style === */
+
+/* Import tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600;700&display=swap');
+
+.about-container {
+  background-color: #fff8f5;
+  color: #3a3a3a;
+  font-family: 'Inter', sans-serif;
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+.about-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.about-header h1 {
+  font-family: 'Playfair Display', serif;
+  color: #b23b4d;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+}
+
+.brand-statement {
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+/* Grid sections */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about-item {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.about-item:hover {
+  transform: translateY(-5px);
+}
+
+.about-item h2 {
+  font-family: 'Playfair Display', serif;
+  color: #b23b4d;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-item p {
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Highlight section */
+.about-highlight {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-highlight h2 {
+  font-family: 'Playfair Display', serif;
+  color: #b23b4d;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.about-highlight .quote {
+  font-style: italic;
+  color: #b23b4d;
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Profile card */
+.about-profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info h3 {
+  font-family: 'Playfair Display', serif;
+  color: #b23b4d;
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.profile-info p {
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.profile-info a {
+  color: #b23b4d;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.profile-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,112 @@
+.admin-panel {
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.admin-section {
+  margin-bottom: 40px;
+}
+
+.admin-section > h2 {
+  text-align: center;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.form-card#product-form,
+.form-card#user-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* TABLAS */
+.table-responsive {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #eee;
+  padding: 12px;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: var(--color-accent-soft);
+  color: #fff;
+  font-weight: 600;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.data-table tbody tr:hover {
+  background-color: #fff7f8;
+}
+
+.data-table img {
+  border-radius: 8px;
+}
+
+.table-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* BOTONES DE LA TABLA */
+.btn-edit,
+.btn-delete {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.btn-edit {
+  background-color: #fff;
+  border: 1px solid var(--color-border);
+  color: #333;
+  border: 1px solid var(--color-border);
+}
+
+.btn-edit:hover {
+  background-color: var(--color-accent-soft);
+}
+
+.btn-delete {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background-color: #b91c36;
+}
+
+@media (max-width: 768px) {
+  .admin-panel {
+    padding: 16px;
+  }
+
+  .data-table th,
+  .data-table td {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+}
